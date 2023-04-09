@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <stylesheet = style.css></stylesheet>
+    <stylesheet style.css></stylesheet>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="Ratio" content="Ration donc tout le monde, ta famille, tes potes, des politiciens, le président, ton dentiste et même toi même !!!">
+    <script src="script.js"></script>
     <title>Ratio</title>
 </head>
 <body>
-    <div class="container">
+    <div class="container"> <!--bannière du haut-->
         <img src="img/JAPBG.jpg" alt="Image japonaise pour mieux te RATIO" style="width:100%;">
         <div class="centered" style ="color:whitesmoke"><h1>RATIO</h1></div>
-        
     </div>
 
-    <div class="Phrasedaccroche">
-        <div class="logo"><img src="img/Logo.png" alt="logo couronne"></div>
-        <p>Êtes vous prêt pour la plus grande aventure dont vous pouvez rêver ? <br>Il est temps jeune homme/femme, de ratio le monde ! En passant par ta Famille, tes amis, ton patron, des policiticiens, ...</p>
+    <div class="Phrasedaccroche"> 
+        <div class="logo"><!--Balise ou il y a le logo-->
+            <img src="img/Logo.png" alt="logo couronne" name="Bouton" onMouseOver="Bouton.src = LogoVar.src"
+            onMouseOut="Bouton.src = Logo.src"> <!--"onMouseOver/out" lie le script JavaScript au logo afin qu'il change avec sa variante quand la souris passe dessus-->
+        </div> 
+        <!--Grand texte qui explique ce qu'est ce site--><p>Êtes vous prêt pour la plus grande aventure dont vous pouvez rêver ? <br>Il est temps jeune homme/femme, de ratio le monde ! En passant par ta Famille, tes amis, ton patron, des policiticiens, ...</p>
     </div>
 
     <div class="description">
-        <p>Le but de Ratio est comme son nom l'indique, inspiré de son feu modèle Twitter et de son concept le plus incroyable, celui de ratio les gens <br>Discutez de plusieurs choses incroyable de la vie de tout les jours en mettant vos avis les plus tranchés ! A la fin, si personne ne vous a ratio.. <br>Vous êtes le meilleur et votre avis est celui qui compte le plus au point où on le marquera sur le tableau des réussites <br>Mais si vous réussissez à ratio quelqu'un, votre message sera préservé dans la catégorie des successfull ratios !</p>
+        <!--Grand texte qui explique ce qu'est ce site--><p>Le but de Ratio est comme son nom l'indique, inspiré de son feu modèle Twitter et de son concept le plus incroyable, celui de ratio les gens <br>Discutez de plusieurs choses incroyable de la vie de tout les jours en mettant vos avis les plus tranchés ! A la fin, si personne ne vous a ratio.. <br>Vous êtes le meilleur et votre avis est celui qui compte le plus au point où on le marquera sur le tableau des réussites <br>Mais si vous réussissez à ratio quelqu'un, votre message sera préservé dans la catégorie des successfull ratios !</p>
     </div>
 
-    <section class="container">
+    <section class="container"> <!--Les 4 boutons principaux du site-->
         <article class="menu">
         <div class="bloc-1">
             <input class="favorite styled"
@@ -50,7 +53,7 @@
         </section>
 
     <footer>
-        <section class="container">
+        <section class="container"> <!--Bouton du bas qui sont là pour se connecter/déconnecter et pub de mes réseaux-->
             <article class="menu2">
             <div class="bloc-1">
             Inscrit toi
