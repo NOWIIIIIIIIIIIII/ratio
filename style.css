@@ -45,6 +45,13 @@ ul {
   color: white
 }
 
+.description {
+  position: relative;
+  text-align: center;
+  background-color: black;
+  color: white
+}
+
 .logo {
   transform: scale(0.55);
   padding-bottom : 20px;
